@@ -2,14 +2,14 @@ body {
   font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   font-size: 15px;
   letter-spacing: .05em;
-  color: #ffff00;
+  color: #00ffac;
   background-color: #4c4c4c;
 }
 
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #1ca9e3;
+  /* color: #1ca9e3; */
 }
 
 img {
@@ -30,7 +30,7 @@ img {
 }
 
 /*--------------------------------
- レイアウト
+  レイアウト
 ---------------------------------*/
 .wrapper {
   padding-top: 73px;
@@ -40,18 +40,20 @@ img {
   padding: 90px 0;
 }
 
+/* 背景 */
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: #4c4c4c;
 }
 
 .container {
   max-width: 1340px;
   margin: 0 auto;
   padding: 0 40px;
+  background-color: #4c4c4c;
 }
 
 /*--------------------------------
- 見出し
+  見出し
 ---------------------------------*/
 .title {
   font-size: 34px;
@@ -60,7 +62,6 @@ img {
   margin-bottom: 40px;
   text-align: center;
   letter-spacing: .05em;
-  color: #333;
 }
 
 .lead {
@@ -97,7 +98,7 @@ img {
 }
 
 .header-logo a {
-  color: #ffff00;
+  color: #00ffac;
 }
 
 .gnav-list {
@@ -118,9 +119,9 @@ img {
   padding: 5px 0;
   transition: .3s;
   letter-spacing: .05em;
-  color: #ffff00;
-
+  color: #00ffac;
 }
+
 .gnav-item a:after {
   position: absolute;
   bottom: 0;
@@ -131,7 +132,7 @@ img {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #ffff00;
+  background-color: #00ffac;
 }
 
 .gnav-item a:hover:after {
@@ -147,6 +148,8 @@ img {
   justify-content: center;
   height: 85vh;
   text-align: center;
+  background-color: #136262;
+
 }
 
 .mv-container {
@@ -247,10 +250,11 @@ img {
 .skill-text {
   font-size: 14px;
   line-height: 1.8;
+  color: #ffffff;
 }
 
 /*--------------------------------
- About
+  About
 ---------------------------------*/
 .profile {
   display: flex;
@@ -268,6 +272,7 @@ img {
 }
 .profile-body {
   flex: 1;
+  color: white;
 }
 
 .profile-body p {
@@ -280,7 +285,7 @@ img {
 }
 
 /*--------------------------------
- Contact
+  Contact
 ---------------------------------*/
 .contact {
   text-align: center;
@@ -294,7 +299,7 @@ img {
   margin-top: 10px;
 }
 /*--------------------------------
- ページトップ
+  ページトップ
 ---------------------------------*/
 .page-top {
   font-weight: bold;
@@ -310,7 +315,7 @@ img {
 }
 
 /*--------------------------------
- フッター
+  フッター
 ---------------------------------*/
 .footer {
   padding: 30px;
@@ -324,7 +329,7 @@ img {
 }
 
 /*--------------------------------
- 下層：Worksページ
+  下層：Worksページ
 ---------------------------------*/
 .article {
   padding: 80px 0;
