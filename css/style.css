@@ -3,7 +3,7 @@ body {
   font-size: 15px;
   letter-spacing: .05em;
   color: #00ffac;
-  background-color: #4c4c4c;
+  background-color: #3a3a3a;
 }
 
 a {
@@ -42,14 +42,14 @@ img {
 
 /* 背景 */
 .section:nth-of-type(odd) {
-  background-color: #4c4c4c;
+  background-color: #3a3a3a;
 }
 
 .container {
   max-width: 1340px;
   margin: 0 auto;
   padding: 0 40px;
-  background-color: #4c4c4c;
+  background-color: #3a3a3a;
 }
 
 /*--------------------------------
@@ -68,6 +68,7 @@ img {
   font-size: 16px;
   line-height: 1.8;
   margin-bottom: 30px;
+  color: white;
 }
 
 /*--------------------------------
@@ -78,7 +79,7 @@ img {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #333;
+  background-color: #706caa;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
@@ -132,7 +133,7 @@ img {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #00ffac;
+  background-color: #706caa;
 }
 
 .gnav-item a:hover:after {
@@ -181,7 +182,7 @@ img {
 ---------------------------------*/
 .works-list {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin-bottom: -40px;
 }
@@ -190,7 +191,7 @@ img {
   width: 31.74603%;
   margin-right: 20px;
   margin-bottom: 40px;
-  color: #333;
+  color: #00ffac;
 }
 
 .works-item:hover {
@@ -202,7 +203,7 @@ img {
 }
 
 .works-img img {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #00ffac;
 }
 
 .works-name {
@@ -270,6 +271,7 @@ img {
 }
 .profile-img img {
   border-radius: 50%;
+  border: 5px solid #706caa;
 }
 .profile-body {
   flex: 1;
@@ -302,6 +304,10 @@ img {
   text-align: center;
 }
 
+.contact-item {
+  color: #706caa;
+}
+
 .contact-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -317,7 +323,7 @@ img {
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #4c4c4c;
+  background-color: #3a3a3a;
 }
 
 .page-top .material-icons-outlined {
