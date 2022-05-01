@@ -65,6 +65,28 @@ img {
   letter-spacing: .05em;
 }
 
+.subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.subtitle:before, .subtitle:after {
+  border-top: 1px solid #00ffac;
+  content: "";
+  width: 3em;
+}
+
+.subtitle:before {
+  margin-right: 1em;
+}
+
+.subtitle:after {
+  margin-left: 1em;
+}
+
 .lead {
   font-size: 16px;
   line-height: 1.8;
@@ -80,7 +102,7 @@ img {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #4033fa;
+  background-color: #00ffac;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
@@ -135,7 +157,7 @@ img {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #4033fa;
+  background-color: #00ffac;
 }
 
 .gnav-item a:hover:after {
@@ -290,7 +312,7 @@ img {
 }
 .profile-img img {
   border-radius: 50%;
-  border: 5px solid #4033fa;
+  border: 5px solid #00ffac;
 }
 .profile-body {
   flex: 1;
@@ -324,7 +346,7 @@ img {
 }
 
 .contact-item {
-  color: #4033fa;
+  color: #00ffac;
 }
 
 .contact-item:not(:last-child) {
