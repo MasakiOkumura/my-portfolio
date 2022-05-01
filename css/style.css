@@ -230,7 +230,8 @@ img {
 
 .works-item {
   width: 30%;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 40px;
   color: #00ffac;
 }
@@ -545,6 +546,7 @@ img {
   .works-item {
     flex: 0 0 48%;
     margin-right: 0;
+    margin-left: 0;
     margin-bottom: 30px;
   }
 
