@@ -246,6 +246,7 @@ img {
 
 .works-img img {
   border: 1px solid #00ffac;
+  background-color: #333;
 }
 
 .works-name {
